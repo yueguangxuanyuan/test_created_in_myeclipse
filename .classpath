@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/org.json.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/poi的jar包/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/dom4j-1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/google-gson-2.2.4/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/MySQL Connector J/mysql-connector-java-5.1.33-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/commons-lang3-3.4/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/commons-lang-2.6/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/commons-collections4-4.0/commons-collections4-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/commons-collections-3.2.1/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Workspaces/lib/commons-beanutils.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
