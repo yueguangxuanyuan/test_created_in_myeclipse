@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="app_preset_prof_preset_name">Test (1) Launch Configuration</entry>
+<entry key="profiler.settings.sampling.interval">10</entry>
+<entry key="app_preset_prof_preset_filter_s"/>
+<entry key="app_preset_prof_preset_filter_p">AccessURL.*,&#13;
+Computation.*,&#13;
+DateFormat.*,&#13;
+EL.*,&#13;
+File.*,&#13;
+ImageIcon.*,&#13;
+InetAddress.*,&#13;
+Json.*,&#13;
+List.*,&#13;
+Map.*,&#13;
+MenuItem.*,&#13;
+POI.*,&#13;
+Reflect.*,&#13;
+String.*,&#13;
+TestMath.*,&#13;
+Time.*,&#13;
+ToMysqlDatabase.*,&#13;
+TryCatch.*,&#13;
+com.yueguang.regex.*,&#13;
+concurrent.*,&#13;
+format.*,&#13;
+frame.*,&#13;
+javaBar.*,&#13;
+pointer.*,&#13;
+testchar.*,&#13;
+匿名内部类.*,&#13;
+泛型.*</entry>
+<entry key="profiler.settings.n.profiled.threads.limit">32</entry>
+<entry key="app_preset_prof_preset_alloc_p">10</entry>
+<entry key="profiler.settings.instrument.method.invoke">true</entry>
+<entry key="app_preset_"/>
+<entry key="profiler.settings.obj.alloc.stack.sampling.depth">0</entry>
+<entry key="app_preset_prof_preset_samplingRefreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_stacks_p">false</entry>
+<entry key="app_preset_prof_preset_roots_p">AccessURL.**
+Computation.**
+DateFormat.**
+EL.**
+File.**
+ImageIcon.**
+InetAddress.**
+Json.**
+List.**
+Map.**
+MenuItem.**
+POI.**
+Reflect.**
+String.**
+TestMath.**
+Time.**
+ToMysqlDatabase.**
+TryCatch.**
+com.yueguang.regex.**
+concurrent.**
+format.**
+frame.**
+javaBar.**
+pointer.**
+testchar.**
+匿名内部类.**
+泛型.**
+</entry>
+<entry key="profiler.settings.instrument.empty.methods">false</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">false</entry>
+<entry key="app_preset_prof_preset_samplingRate_s">100</entry>
+<entry key="profiler.settings.instr.scheme">1</entry>
+<entry key="profiler.settings.cpu.profiling.type">0</entry>
+<entry key="app_preset_prof_preset_selector"/>
+<entry key="app_preset_prof_preset_filterMode_s">true</entry>
+<entry key="app_preset_prof_preset_runnables_p">true</entry>
+<entry key="app_preset_prof_preset_refreshRate_s">1000</entry>
+<entry key="app_preset_prof_preset_filterMode_p">false</entry>
+<entry key="app_preset_prof_preset_memoryMode_p">true</entry>
+</properties>

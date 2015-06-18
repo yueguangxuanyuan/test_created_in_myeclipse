@@ -1,10 +1,18 @@
 package List;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test {
 	public static void main(String[] args) {
 //		function();
-		int[][] list = new int[5][4];
-		System.out.println(list.length);
+//		int[][] list = new int[5][4];
+//		System.out.println(list.length);
+		
+		List<Integer> list = new ArrayList<Integer>();
+	    list.add(1);
+	    list.add(2);
+	    System.out.println(list.toString());
 	}	
 	
 	public static void function() {

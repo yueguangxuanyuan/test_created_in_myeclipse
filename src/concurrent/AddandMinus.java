@@ -2,6 +2,11 @@ package concurrent;
 
 import java.util.concurrent.Semaphore;
 
+
+/*
+ * 这是通过  semaphore 实现的一个生产者与消费者的实例
+ * 
+ */
 public class AddandMinus {
 	int j = 0;
 

@@ -2,6 +2,10 @@ package concurrent;
 
 import java.util.concurrent.Semaphore;
 
+/*
+ * 这里采用 semaphore  来实现操作系统概念中的信号量
+ * 所有线程通过向semaphore 获取锁  来实现同步
+ */
 
 public class TestSemaphore {
 	Semaphore semaphoreA = new Semaphore(1);

@@ -9,7 +9,8 @@ public class HashMaps {
 		map.put("b", "bbb");
 		map.put("c", "ccc");
 		map.put("d", "ddd");
-
+        
+		System.out.println(map);
 		Iterator iterator = map.keySet().iterator();
 		while (iterator.hasNext()) {
 			Object key = iterator.next();

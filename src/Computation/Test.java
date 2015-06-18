@@ -16,8 +16,12 @@ public class Test {
 //		a.add(-1);
 //		Collections.sort(a);
 //		System.out.println(getIndex(1, a));
-		long A = 2000000000;
-		System.out.println(A/60  + 20);
+//		long A = 2000000000;
+//		System.out.println(A/60  + 20);
+		int a = 1;
+		int b = 3;
+		float tempf = (float) (1.0*a/b);
+		System.out.println(tempf);
 		
 //		System.out.println(Math.pow(2, 16));
 //		System.out.println(Math.log(30000)/Math.log(2) );

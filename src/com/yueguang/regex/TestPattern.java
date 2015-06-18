@@ -25,5 +25,11 @@ public class TestPattern {
 		for(int i = 0 ; i <= m.groupCount();i++){
 			System.out.println(m.group(i));
 		}
+		
+		System.out.println("2015年6月17日17:03:37");
+		Matcher m1212=Pattern.compile(".?[0-9]").matcher("6");    
+		while(m1212.find()){    
+		    System.out.println(m1212.group());    
+		}  
 	}
 }

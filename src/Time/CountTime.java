@@ -16,13 +16,29 @@ public class CountTime {
 //    	 
 //    	 
 //    	 System.out.println(Calendar.getInstance().getTime());
-         Timestamp timestamp =new Timestamp(new Date().getTime());
-         System.out.println(timestamp);
-         Calendar calendar= Calendar.getInstance();
-         System.out.println(calendar.getTime());
-         calendar.setTime(timestamp);
-         System.out.println(calendar.getTime());
-         System.out.println(calendar.get(Calendar.MONTH)+1);
+    	 
+//         Timestamp timestamp =new Timestamp(new Date().getTime());
+//         System.out.println(timestamp);
+//         Calendar calendar= Calendar.getInstance();
+//         System.out.println(calendar.getTime());
+//         calendar.setTime(timestamp);
+//         System.out.println(calendar.getTime());
+//         System.out.println(calendar.get(Calendar.MONTH)+1);
+    	 
+    	 Calendar calendar = Calendar.getInstance();
+    	 calendar.add(Calendar.DATE, 120);
+    	 calendar.set(Calendar.HOUR_OF_DAY, 10);
+//    	 int dayDiff = calendar-DA;
+//    	 System.out.println(dayDiff);
+//    	 System.out.println(calendar);
+//    	 Timestamp temp =new Timestamp(calendar.getTimeInMillis());
+//    	 System.out.println(temp);
+//    	 calendar.set(Calendar.HOUR_OF_DAY, 20);
+//    	 System.out.println(temp);
+//    	 Timestamp temp1 =new Timestamp(calendar.getTimeInMillis());
+//         System.out.println(temp1);
+//    	 System.out.println(temp1.after(temp));
+//    	 System.out.println(temp1.before(temp));
      
      }
 }

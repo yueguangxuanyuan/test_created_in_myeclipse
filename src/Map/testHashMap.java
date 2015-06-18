@@ -12,7 +12,14 @@ public class testHashMap {
     	hashMap.put("5", 3);
     	hashMap.put("4", 5);
     	
-    	for(String i : hashMap.keySet()){
+    	StringBuilder sb = new StringBuilder("{");
+		for (String key : hashMap.keySet()) {
+			sb.append("\"" + key + "\" : " + hashMap.get(key) + ",");
+		}
+		sb.setCharAt(sb.length() - 1, '}');
+		System.out.println(sb.toString());
+		
+		for(String i : hashMap.keySet()){
     		System.out.print(i + "\n");
     	}
     	
