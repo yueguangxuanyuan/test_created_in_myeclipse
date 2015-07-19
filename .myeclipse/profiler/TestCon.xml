@@ -7,48 +7,48 @@
 <entry key="ProfilerMemorySettings_track_every">10</entry>
 <entry key="ProfilerMemorySettings_mode">4</entry>
 <entry key="ProfilerCPUSettings_root_classes">Computation.**
-DateFormat.**
-EL.**
-File.**
-Hash.**
-InetAddress.**
-Json.**
-List.**
-MenuItem.**
-POI.**
-Reflect.**
-StringCopy.**
-TestMath.**
-Time.**
-ToMysqlDatabase.**
-TryCatch.**
-com.yueguang.regex.**
-format.**
-frame.**
-javaBar.**
-泛型.**
+    DateFormat.**
+    EL.**
+    File.**
+    Hash.**
+    InetAddress.**
+    Json.**
+    List.**
+    MenuItem.**
+    POI.**
+    Reflect.**
+    StringCopy.**
+    TestMath.**
+    Time.**
+    ToMysqlDatabase.**
+    TryCatch.**
+    com.yueguang.regex.**
+    format.**
+    frame.**
+    javaBar.**
+    generics.**
 </entry>
 <entry key="ProfilerCPUSettings_filter_value">Computation.*,
-DateFormat.*,
-EL.*,
-File.*,
-Hash.*,
-InetAddress.*,
-Json.*,
-List.*,
-MenuItem.*,
-POI.*,
-Reflect.*,
-StringCopy.*,
-TestMath.*,
-Time.*,
-ToMysqlDatabase.*,
-TryCatch.*,
-com.yueguang.regex.*,
-format.*,
-frame.*,
-javaBar.*,
-泛型.*</entry>
+    DateFormat.*,
+    EL.*,
+    File.*,
+    Hash.*,
+    InetAddress.*,
+    Json.*,
+    List.*,
+    MenuItem.*,
+    POI.*,
+    Reflect.*,
+    StringCopy.*,
+    TestMath.*,
+    Time.*,
+    ToMysqlDatabase.*,
+    TryCatch.*,
+    com.yueguang.regex.*,
+    format.*,
+    frame.*,
+    javaBar.*,
+    generics.*</entry>
 <entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
 <entry key="myeclipse.profiling.mode">0</entry>
 <entry key="ProfilerMemorySettings_stacktraces">-1</entry>

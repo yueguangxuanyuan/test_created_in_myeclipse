@@ -5,32 +5,32 @@
 <entry key="profiler.settings.sampling.interval">10</entry>
 <entry key="app_preset_prof_preset_filter_s"/>
 <entry key="app_preset_prof_preset_filter_p">AccessURL.*,&#13;
-Computation.*,&#13;
-DateFormat.*,&#13;
-EL.*,&#13;
-File.*,&#13;
-ImageIcon.*,&#13;
-InetAddress.*,&#13;
-Json.*,&#13;
-List.*,&#13;
-Map.*,&#13;
-MenuItem.*,&#13;
-POI.*,&#13;
-Reflect.*,&#13;
-String.*,&#13;
-TestMath.*,&#13;
-Time.*,&#13;
-ToMysqlDatabase.*,&#13;
-TryCatch.*,&#13;
-com.yueguang.regex.*,&#13;
-concurrent.*,&#13;
-format.*,&#13;
-frame.*,&#13;
-javaBar.*,&#13;
-pointer.*,&#13;
-testchar.*,&#13;
-匿名内部类.*,&#13;
-泛型.*</entry>
+    Computation.*,&#13;
+    DateFormat.*,&#13;
+    EL.*,&#13;
+    File.*,&#13;
+    ImageIcon.*,&#13;
+    InetAddress.*,&#13;
+    Json.*,&#13;
+    List.*,&#13;
+    Map.*,&#13;
+    MenuItem.*,&#13;
+    POI.*,&#13;
+    Reflect.*,&#13;
+    String.*,&#13;
+    TestMath.*,&#13;
+    Time.*,&#13;
+    ToMysqlDatabase.*,&#13;
+    TryCatch.*,&#13;
+    com.yueguang.regex.*,&#13;
+    concurrent.*,&#13;
+    format.*,&#13;
+    frame.*,&#13;
+    javaBar.*,&#13;
+    pointer.*,&#13;
+    testchar.*,&#13;
+    Anonymous.*,&#13;
+    generics.*</entry>
 <entry key="profiler.settings.n.profiled.threads.limit">32</entry>
 <entry key="app_preset_prof_preset_alloc_p">10</entry>
 <entry key="profiler.settings.instrument.method.invoke">true</entry>
@@ -39,32 +39,32 @@ testchar.*,&#13;
 <entry key="app_preset_prof_preset_samplingRefreshRate_s">1000</entry>
 <entry key="app_preset_prof_preset_stacks_p">false</entry>
 <entry key="app_preset_prof_preset_roots_p">AccessURL.**
-Computation.**
-DateFormat.**
-EL.**
-File.**
-ImageIcon.**
-InetAddress.**
-Json.**
-List.**
-Map.**
-MenuItem.**
-POI.**
-Reflect.**
-String.**
-TestMath.**
-Time.**
-ToMysqlDatabase.**
-TryCatch.**
-com.yueguang.regex.**
-concurrent.**
-format.**
-frame.**
-javaBar.**
-pointer.**
-testchar.**
-匿名内部类.**
-泛型.**
+    Computation.**
+    DateFormat.**
+    EL.**
+    File.**
+    ImageIcon.**
+    InetAddress.**
+    Json.**
+    List.**
+    Map.**
+    MenuItem.**
+    POI.**
+    Reflect.**
+    String.**
+    TestMath.**
+    Time.**
+    ToMysqlDatabase.**
+    TryCatch.**
+    com.yueguang.regex.**
+    concurrent.**
+    format.**
+    frame.**
+    javaBar.**
+    pointer.**
+    testchar.**
+    Anonymous.**
+    generics.**
 </entry>
 <entry key="profiler.settings.instrument.empty.methods">false</entry>
 <entry key="myeclipse.profiling.mode">0</entry>

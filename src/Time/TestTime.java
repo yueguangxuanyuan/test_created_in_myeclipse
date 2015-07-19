@@ -8,8 +8,8 @@ public class TestTime {
 	public static void main(String[] args) {
 		Calendar calendar = Calendar.getInstance();
         Calendar newCalendar = Calendar.getInstance();
-        newCalendar.set(Calendar.MONTH, 3); //设定4月
-        newCalendar.set(Calendar.DATE, 1);
+        newCalendar.set(Calendar.MONTH, 5); //设定4月
+        newCalendar.set(Calendar.DATE, 15);
         java.sql.Date date =new java.sql.Date( newCalendar.getTimeInMillis());
         java.sql.Date date2 = new java.sql.Date(calendar.getTimeInMillis());
         System.out.println((date2.getTime() -date.getTime())/1000/24/3600);
