@@ -1,6 +1,7 @@
 package format;
 
 import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
 
 public class TestFormat {
 
@@ -17,6 +18,8 @@ public class TestFormat {
         System.out.println(String.format("%2.2f", A));
         System.out.println(10);
         System.out.println(new String("赵铁柱".getBytes("UTF8"), "UTF8"));
+        System.out.println(new BigDecimal("20445.29232").setScale(0,BigDecimal.ROUND_DOWN).toString());
+
 	}
 
 }

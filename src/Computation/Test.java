@@ -23,6 +23,9 @@ public class Test {
 		float tempf = (float) (1.0*a/b);
 		System.out.println(tempf);
 		
+		long templ =9223372036854775807L;
+		System.out.println(templ);
+		
 //		System.out.println(Math.pow(2, 16));
 //		System.out.println(Math.log(30000)/Math.log(2) );
 //		System.out.println(0x12);

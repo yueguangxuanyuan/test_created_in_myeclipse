@@ -59,5 +59,9 @@ public class Dateformat{
         java.text.DateFormat format2 = new java.text.SimpleDateFormat("yyyyMMddhhmmss");
         s = format2.format(new Date());
         System.out.println(s); 
+        
+        long tempLong = 1446533760*(long)1000;
+        Date d1 = new Date(tempLong);
+        System.out.println((new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(d1));
     }
 }       

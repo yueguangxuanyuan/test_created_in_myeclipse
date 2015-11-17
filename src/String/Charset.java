@@ -15,5 +15,9 @@ public class Charset {
 		
 		String s = "21-14-不好";
 		System.out.println(s.split("\\|").length);
+		
+		String temp ="tour/eee/sss";
+		
+		System.out.println(temp.replace('/','-'));
 	}
 }

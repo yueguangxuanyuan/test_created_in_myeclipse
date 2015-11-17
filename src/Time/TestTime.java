@@ -1,7 +1,12 @@
 package Time;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.TimeZone;
+
+import DateFormat.Dateformat;
 
 public class TestTime {
 
@@ -21,6 +26,17 @@ public class TestTime {
 //		java.sql.Date start = new java.sql.Date(calendar.getTimeInMillis());
 //
 //		System.out.println(start.toString() + "|" + end.toString());
+        
+        SimpleDateFormat  dateformat = new SimpleDateFormat ("yyyy-MM-dd'T'hh:mm:ss");
+        dateformat.setTimeZone(TimeZone.getTimeZone("UTC"));
+        try {
+			System.out.println(dateformat.parse("2015-11-13T03:11:29.823242+00:00"));
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+      
 
 	}
 
